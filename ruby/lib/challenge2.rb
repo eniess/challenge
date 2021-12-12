@@ -42,6 +42,8 @@ if __FILE__ == $0
     }
   end
 
+  puts "#{values}"
+
   #puts "Processing array #{values}"
   (r_start, r_end) = challenge2(values)
   puts "#{r_start} #{r_end}"
